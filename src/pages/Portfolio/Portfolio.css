@@ -1,0 +1,38 @@
+img {
+    height: 13rem;
+    width: 25rem;
+}
+
+a {
+    color: #fff8ef;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f8debd;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-container {
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(174, 174, 171, 0.8);
+    display: flex;
+    justify-content: center;
+}
