@@ -1,4 +1,11 @@
 img.avatar-img {
-    width: 23%;
-    height: 13%;
+    width: 21%;
+    height: 11%;
+}
+
+.intro {
+    text-align: center;
+    width: 50rem;
+    display: inline-flex;
+    justify-content: center;
 }

@@ -153,3 +153,5 @@ Desktop.ini
 /.nyc_output/
 
 .env
+# Local Netlify folder
+.netlify

@@ -10,13 +10,8 @@ export default function About() {
         <div>
         <img src={avatar} alt="Avatar" className='avatar-img'/>
       </div>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        <p className='intro'>
+        My name is Bao Xiong, and I'm currently immersing myself in the world of coding at a bootcamp. The dynamic nature of the coding industry is what truly captivates me. There's a sense of gratification that comes from watching my work take form and seeing how users engage with it. My primary objective is to craft innovative, responsive, and user-friendly applications. But beyond that, my focus is always on the user experience. I strive to ensure that my applications are accessible, intuitive, and visually appealing.
         </p>
       </div>
     </div>
