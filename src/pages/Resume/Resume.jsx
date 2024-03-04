@@ -1,11 +1,16 @@
+import './Resume.css';
+
 export default function Resume() {
     return (
       <div>
-        <h1>Resume</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed.
-        </p>
-      </div>
-    );
-  }
+      <h2>Resume</h2>
+      <h5>Proficiencies</h5>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <a className='pdf' href="/assets/resume-example.jpeg" download>Download Resume</a>
+    </div>
+  );
+}

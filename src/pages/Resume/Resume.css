@@ -1,0 +1,11 @@
+ul {
+    padding-left: 0rem;
+}
+
+.pdf {
+    color: rgb(66, 106, 66);
+}
+
+.pdf:hover {
+    color: rgb(154, 191, 154);
+}

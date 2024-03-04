@@ -14,8 +14,12 @@ const Header = () => (
 const Footer = () => (
   <footer className="footer">
     <p>© 2024 re-aBAOme</p>
-    <FaGithub className='icon'/>
-    <FaPaperPlane className='icon'/>
+    <a href="https://github.com/bxiong34" target="_blank" rel="noopener noreferrer" className="icon-link">
+      <FaGithub className="icon" />
+    </a>
+    <a href="mailto:baoxiong814@gmail.com" className="icon-link">
+      <FaPaperPlane className='icon'/>
+    </a>
   </footer>
 );
 
